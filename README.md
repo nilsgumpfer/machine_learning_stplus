@@ -5,6 +5,7 @@ Welcome to the repository accompanying the **Machine Learning** lectures. This r
 ## 📁 Structure
 
 - `data/` – Sample datasets (or download scripts)
+- `plots/` – Directory where plots will be saved
 - `scripts/` – Python scripts for demonstrations or assignments
 - `requirements.txt` – List of required Python packages
 
@@ -14,11 +15,12 @@ You can set up your environment using either `venv` (standard Python virtual env
 
 ---
 
+
 ### 🐍 Option 1: Using `venv` (Python 3.10 recommended)
 
 1. **Create virtual environment**:
    ```bash
-   python -m venv ml-env
+   python3 -m venv ml-env
    ```
 
 2. **Activate the environment**:
@@ -33,10 +35,10 @@ You can set up your environment using either `venv` (standard Python virtual env
 
 3. **Install requirements**:
    ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt
+   pip3 install --upgrade pip
+   pip3 install -r requirements.txt
    ```
-
+   
 ---
 
 ### 🧪 Option 2: Using `conda` / `miniconda`
@@ -53,13 +55,12 @@ You can set up your environment using either `venv` (standard Python virtual env
 
 3. **Install requirements**:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 ## 📝 Notes
 
 - This repository assumes basic familiarity with Python and Shell comands.
-- Some notebooks may require internet access for downloading datasets or models.
 - GPU acceleration is not required but may speed up certain examples if available (you can use https://colab.google/ for that purpose).
 
 ---
