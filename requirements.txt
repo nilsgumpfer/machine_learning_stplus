@@ -7,3 +7,4 @@ streamlit
 protobuf
 opencv-python
 openpyxl
+ydata_profiling

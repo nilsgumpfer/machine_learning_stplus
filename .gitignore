@@ -83,6 +83,7 @@ target/
 *.pdf
 *.tar.gz
 *.~lock*
+*.csv
 .idea/
 logs/
 tables/
@@ -90,3 +91,4 @@ tables/
 config/experiments/*__*
 tmp/
 data/QMUL_360degreeViewSphere_FaceDatabase
+plots/dwd_analysis
