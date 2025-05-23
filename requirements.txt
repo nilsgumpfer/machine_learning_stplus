@@ -1,7 +1,8 @@
-matplotlib
-scikit-learn
 numpy~=1.24.4
 pandas
+matplotlib
+scikit-learn
+scikit-multilearn
 tensorflow~=2.10.1
 streamlit
 protobuf
