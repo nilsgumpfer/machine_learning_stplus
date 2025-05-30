@@ -20,6 +20,7 @@ ax.set_title("Linear Classifier")
 ax.set_xlabel("sepal length")
 ax.set_ylabel("sepal width")
 
+#
 # Grid for background
 xx, yy = np.meshgrid(
     np.linspace(X[:, 0].min() - 0.5, X[:, 0].max() + 0.5, 300),
