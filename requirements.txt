@@ -10,3 +10,4 @@ opencv-python
 openpyxl
 ydata_profiling
 lime
+neurokit2
