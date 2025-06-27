@@ -11,3 +11,4 @@ openpyxl
 ydata_profiling
 lime
 neurokit2
+ultralytics
