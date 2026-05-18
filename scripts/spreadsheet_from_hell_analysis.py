@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.stats import pearsonr, spearmanr
-
+from data_profiling import ProfileReport
 
 def convert_to_float(x, default=-1.0):
     x = x.replace(' ', '')
@@ -57,5 +57,12 @@ def ef_qrs_corr(ef_col='EF_8wks', qrs_col='QRS (ms) 8'):
     plt.show()
 
 
+def run_profiling():
+    df = pd.read_excel('../data/spreadsheet_from_hell.xlsx')
+    profile = ProfileReport(df, title="Spreadsheet from Hell")
+    profile.to_file("../plots/report.html")
+
+
 if __name__ == '__main__':
+    # run_profiling()
     ef_qrs_corr()
